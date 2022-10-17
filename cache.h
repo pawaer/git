@@ -1901,6 +1901,7 @@ struct startup_info {
 	int have_repository;
 	const char *prefix;
 	const char *original_cwd;
+	const char *prefix;
 };
 extern struct startup_info *startup_info;
 extern const char *tmp_original_cwd;
